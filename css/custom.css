@@ -1,0 +1,463 @@
+@import url(http://fonts.googleapis.com/css?family=Lusitana:400,700);
+
+body{
+	background: rgba(192, 192, 192, 0.75);
+
+}
+
+*{
+
+	font-family: 'Lusitana', serif;
+
+}
+
+#title_bar{
+	
+	background: rgba(1,71,107, 0.95);
+	text-align: center;
+	color: white;
+	height: 10%;
+	border: 2px solid white;
+	
+	
+}
+
+#main_wrap{
+
+	margin: auto;
+	width: 1000px;
+	clear: both;
+}
+
+#sign_up{
+
+	background: rgba(1,71,107, 0.6);
+	width: 66.5%;
+	height: 542px;
+	color: white;
+	text-align: center;
+	/*border-radius: 0 10px 10px 0;*/
+	/*border-radius: 10px;*/
+	border: 2px solid white;
+	margin: auto;
+	margin-left: 0px;
+	float: left;
+
+}
+
+#login{
+	
+	background: rgba(1,71,107, 0.6);
+	/*background: rgba(128,179,255, 1);*/
+	height: 269px;
+	width: 325px;
+	/*border-radius: 10px 0 0 0;*/
+	border: 2px solid white;
+	text-align: center;
+	color: white;
+	margin: auto;
+	margin-left: 0;
+	float:left;
+}
+
+#about{
+	
+	background: rgba(1,71,107, 0.6);
+	height: 269px;
+	width: 325px;
+	/*border-radius: 0 0 0 10px;*/
+	/*border-radius: 10px;*/
+	border: 2px solid white;
+	text-align: center;
+	color: white;
+	margin: auto;
+	/*margin-top: 25.25%;*/
+	margin-top: 273px;
+	margin-left: -329px;
+	float:left;
+}
+
+#about2{
+	
+	background: rgba(1,71,107, 0.6);
+	height: 269px;
+	width: 325px;
+	/*border-radius: 0 0 0 10px;*/
+	/*border-radius: 10px;*/
+	border: 2px solid white;
+	text-align: center;
+	color: white;
+	margin: auto;
+	/*margin-top: 25.25%;*/
+	margin-top: 273px;
+	margin-left: -329px;
+	float:left;
+}
+
+#sign_up h1{
+
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+}
+
+#table_login
+{
+	order-collapse:collapse;
+	margin:auto;
+	margin-top: 10px;
+	margin-left: 50px;
+
+}
+
+#table_register
+{
+	order-collapse:collapse;
+	margin:auto;
+	margin-top: 10px;
+	margin-left: 35%;
+	/*border: 2px solid white;*/
+
+}
+
+#table_modification
+{
+	order-collapse:collapse;
+	margin:auto;
+	margin-top: 10px;
+	margin-left: 20%;
+	/*border: 2px solid white;*/
+
+}
+
+input[type="text"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 5px;
+	/*border-radius: 10px;*/
+	
+}
+
+input[type="time"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 5px;
+	/*border-radius: 10px;*/
+	
+}
+
+input[type="date"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 5px;
+	/*border-radius: 10px;*/
+	
+}
+
+input[type="password"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	border-radius: 5px;
+	font-family: 'Lusitana', serif;
+	/*border-radius: 10px;*/
+	
+}
+
+#time_picker
+{
+	width: 214px;
+	height: 37px;
+	margin-top: 5px;
+	padding-left:10px;
+	border-radius: 5px;
+	font-family: 'Lusitana', serif;
+	/*border-radius: 10px;*/
+	
+}
+
+input[type="email"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	border-radius: 5px;
+	font-family: 'Lusitana', serif;
+	/*border-radius: 10px;*/
+	
+}
+
+input[type = "submit"]{
+
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 125px;
+	height: 30px;
+	border-radius: 5px;
+	/*border-radius: 10px;*/
+	font-family: 'Lusitana', serif;
+
+}
+
+
+input[type="number"]
+{
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	border-radius: 5px;
+	font-family: 'Lusitana', serif;
+	/*border-radius: 10px;*/
+	
+}
+
+#logout{
+
+	
+	width: 100%;
+	margin: auto;
+	margin-top: 24px;
+
+
+}
+
+#activities_info{
+
+	height: 175px;
+	margin-top: 20px;
+
+}
+
+#table_login a{
+
+	color: white;
+	margin:auto;
+	margin-top: 10px;
+
+}
+
+#footer{
+	
+	background: rgba(1,71,107, 0.95);
+	text-align: center;
+	color: white;
+	left: 0.6%;
+	
+	height: 10%;
+	border: 2px solid white;
+	clear: both;
+}
+
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+#nav_bar{
+
+	position: inline-block;
+	color: white;
+	text-align: justify;
+
+}/*inside jquery ui tabs*/
+
+nav{
+
+margin-top: 50px;
+
+}
+
+#nav_bar ul{
+
+	list-style-type: none;
+	color: white;
+
+}
+
+#nav_bar ul li a{
+
+	color: white;
+
+}
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+.ui-tabs .ui-tabs-nav li a{
+    width: 100%;
+    text-align: center;
+}
+
+#error_mess{
+
+	margin-right: 300px;
+	margin-top: -400px;
+
+}
+/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+#tabs-3{
+
+	
+	height: 450px;
+	/*border: 2px solid black;*/
+
+}
+
+#settings{
+
+border-collapse: collapse;
+
+}
+
+#blue{
+
+	background-color: rgba(80,166,208, 0.15);
+
+}
+
+
+
+#grey{
+
+	background-color: rgba(20,72,111, 0.15);
+
+}
+
+#blue:hover{
+
+	background-color: rgba(80,166,208, 0.2);
+
+}
+
+#grey:hover{
+
+	background-color: rgba(20,72,111, 0.2);
+
+}
+
+#settings th{
+
+	background: rgba(1,71,107, 0.95);
+	color: white;
+
+}
+
+#tabs-3, #tabs-2{
+	
+	height: 450px;
+	overflow-y: scroll;
+
+}
+
+#separator{
+
+margin-top: 10px;
+
+}
+
+#settings td{
+
+	text-align: left;
+	margin-left: 0;
+	width: 100%;
+	height: 50px;;
+
+}
+
+#settings tdb{
+
+	text-align: left;
+	margin-left: 0;
+	width: 20px;
+	height: 50px;;
+
+}
+
+
+#settings tr{
+
+	text-align: left;
+	width: 100%;
+	height: 50px;
+
+}
+
+#modify_button{
+
+	margin-left: 200px;
+
+}
+
+#logout_button{
+
+	width: 100px;
+
+}
+
+
+
+#user_account{
+
+	background: rgba(1,71,107, 0.6);
+	width: 66.5%;
+	height: 542px;
+	color: black;
+	/*text-align: center;*/
+	/*border-radius: 0 10px 10px 0;*/
+	/*border-radius: 10px;*/
+	
+	margin: auto;
+	margin-left: 0px;
+	float: left;
+
+}
+
+#user_account h2{
+
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	color: black;
+}
+
+#activity_1 td{
+
+	text-align: left;
+	margin-left: 0;
+	width: 100%;
+	height: 50px;;
+
+}
+
+#task_id2
+{
+	width: 50px;
+	
+	height: 30px;
+	margin-top: 5px;
+	padding-left:10px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 5px;
+	/*border-radius: 10px;*/
+	
+}
+
+#edit{
+
+	height: 20px;
+	width: 20px;
+
+
+}
+
